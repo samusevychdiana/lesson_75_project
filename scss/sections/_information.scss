@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color-bg;
+}
+
+.information-container {
+    padding: 20px 40px;
+
+}
+
+.information-container h2 {
+    font-family: $font-main;
+    font-size: $big-size;
+    color: $text-color;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
