@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 * {
     margin: 0;
     padding: 0;
@@ -15,5 +17,24 @@
     font-size: $big-size;
     color: $text-color;
     font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.info-card h3 {
+    font-family: $font-second;
+    font-size: $normal-size;
+    color: $text-color;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.info-icon {
     margin-bottom: 20px;
 }

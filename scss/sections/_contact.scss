@@ -1,5 +1,53 @@
+@import 'variables.scss';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.contact-container {
+    padding: 20px 40px;
+    
+}
+
+.contact-content {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-container h2 {
+    font-family: $font-main;
+    font-size: $big-size;
+    color: $text-color;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}
+
+.contact-column h3 {
+    font-family: $font-second;
+    font-weight: 400;
+    font-size: $contact-size;
+    color: $text1-color;
+    margin-bottom: 10px;
+}
+
+.contact-column p {
+    font-family: $font-second;
+    font-weight: 300;
+    font-size: $main-size;
+    color: $text1-color;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 40px;
 }
