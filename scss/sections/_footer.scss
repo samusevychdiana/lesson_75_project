@@ -5,3 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.footer-container {
+    padding: 20px 40px;
+    background-color: $color-bg;
+}
+
+.footer-brand {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
